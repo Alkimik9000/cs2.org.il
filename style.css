@@ -1,0 +1,129 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  direction: rtl; /* Add this line to set the text direction to RTL */
+}
+
+/* Navigation */
+header {
+  background-color: #333;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+header nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Social media links */
+header .social-media {
+  display: flex;
+  list-style: none;
+}
+
+header .social-media li a {
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+header .social-media li a:hover {
+  background-color: #555;
+}
+
+/* Main content */
+main {
+  padding: 2rem;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Reset default styles for the list and anchor tags */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+  background-color: #ddd;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo img {
+  display: block;
+  max-width: 200px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.image-container {
+  background-image: url(https://i.postimg.cc/Jnp8qZdw/Greenshot-2023-05-05-02-34-23.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  margin: 0 auto;
+}
